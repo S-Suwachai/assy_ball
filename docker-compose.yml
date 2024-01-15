@@ -1,0 +1,12 @@
+services:
+  backend_assy_ball:
+    build: ./backend
+    ports:
+      - "4000:4000"
+    restart: on-failure
+  frontend_assy_ball:
+    build: ./frontend
+    ports:
+      - "3002:3000"
+    depends_on:
+      - backend_assy_ball
