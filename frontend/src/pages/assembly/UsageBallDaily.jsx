@@ -62,7 +62,7 @@ export default function UsageBallDaily() {
     };
 
     const getDataForSql = async () => {
-        const resultFromSql = await axios.post("http://localhost:4000/assy/ball/assyBall", {
+        const resultFromSql = await axios.post("http://192.168.100.21:4000/assy/ball/assyBall", {
             startDateQuery: startDate,
             endDateQuery: endDate,
             materialQuery: selectMaterial,
