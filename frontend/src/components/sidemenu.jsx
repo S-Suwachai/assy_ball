@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Sidemenu() {
     return (
         <aside className="main-sidebar sidebar-dark-primary elevation-4">
-            <Link to="/mms_mbrmd_full" className="brand-link">
+            <Link to="#" className="brand-link">
                 <span className="brand-text font-weight-light">NMB BEARING</span>
             </Link>
             <div className="sidebar">
@@ -18,19 +18,19 @@ export default function Sidemenu() {
                             </Link>
                             <ul className="nav nav-treeview">
                                 <li className="nav-item">
-                                    <Link to="/mms_mbrmd_full" className="nav-link">
+                                    <Link to="#" className="nav-link">
                                         <i className="far nav-icon" />
                                         <p>MBRC Chart</p>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/mms_mbrmd_total" className="nav-link">
+                                    <Link to="#" className="nav-link">
                                         <i className="far nav-icon" />
                                         <p>Production Total</p>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/mms_table_mbr" className="nav-link">
+                                    <Link to="#" className="nav-link">
                                         <i className="far nav-icon" />
                                         <p>MBRC Table</p>
                                     </Link>
@@ -45,7 +45,7 @@ export default function Sidemenu() {
                             </Link>
                             <ul className="nav nav-treeview">
                                 <li className="nav-item">
-                                    <Link to="/Realtime_total_MBR_day" className="nav-link">
+                                    <Link to="#" className="nav-link">
                                         <i className="far nav-icon" />
                                         <p>Ball Usage total MBR</p>
                                     </Link>
@@ -57,13 +57,13 @@ export default function Sidemenu() {
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/mms_onhand" className="nav-link">
+                                    <Link to="#" className="nav-link">
                                         <i className="far nav-icon" />
                                         <p>Ball Onhand</p>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/mms_turnover" className="nav-link">
+                                    <Link to="#" className="nav-link">
                                         <i className="far nav-icon" />
                                         <p>Ball Turnover</p>
                                     </Link>
@@ -77,26 +77,26 @@ export default function Sidemenu() {
                             </Link>
                             <ul className="nav nav-treeview">
                                 <li className="nav-item">
-                                    <Link to="/mms_gd" className="nav-link">
+                                    <Link to="#" className="nav-link">
                                         <i className="far nav-icon" />
                                         <p>Status Alarm</p>
                                     </Link>
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link to="/mms_gd_hour" className="nav-link">
+                                    <Link to="#" className="nav-link">
                                         <i className="far nav-icon" />
                                         <p>Status Alarm By Hour</p>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/mms_status_mc_UTL" className="nav-link">
+                                    <Link to="#" className="nav-link">
                                         <i className="far nav-icon" />
                                         <p>Machine Status</p>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/mms_mc_status" className="nav-link">
+                                    <Link to="#" className="nav-link">
                                         <i className="far nav-icon" />
                                         <p>Non-Operating time</p>
                                     </Link>
