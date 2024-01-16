@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Header from "./components/header";
-import Sidemenu from "./components/sidemenu";
-import Footer from "./components/footer";
+import Header from "./components/Header";
+import Sidemenu from "./components/Sidemenu";
+import Footer from "./components/Footer";
 
 import UsageBallDaily from "./pages/assembly/UsageBallDaily";
 
@@ -11,11 +11,11 @@ export default function App() {
             <div>
                 <Header />
                 <Sidemenu />
-                    <Routes>
+                <Routes>
                     <Route path="/UsageBallDaily" element={<UsageBallDaily />} />
                     <Route exact={true} path="*" element={<UsageBallDaily />} />
-                    </Routes>
-                {<Footer />}
+                </Routes>
+                <Footer />
             </div>
         </BrowserRouter>
     );
