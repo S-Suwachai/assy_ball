@@ -5,7 +5,7 @@ const dbms = new Sequelize("machine_data", "sa", "sa@admin", {
     dialect: "mssql",
     dialectOptions: {
         options: {
-            instanceName: "SQLEXPRESS",
+            // instanceName: "SQLEXPRESS",
         },
     },
 });
