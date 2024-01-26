@@ -13,13 +13,14 @@ const Sequelize = require("sequelize");
 
 const dbms = new Sequelize({
     dialect: 'mssql',
-    server: "192.168.100.10",
+    host: "192.168.100.10",
     username: "sa",
     password: "sa@admin",
     database: "machine_data",
     dialectOptions: {
         options: {
-            instanceName: "SQLEXPRESS",
+            // instanceName: "SQLEXPRESS",
+            instanceName: "",
         }
     }
 });
