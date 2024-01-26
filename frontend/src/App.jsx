@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import Sidemenu from "./components/Sidemenu";
-import Footer from "./components/Footer";
+import Header from "./components/Header.jsx";
+import Sidemenu from "./components/Sidemenu.jsx";
+import Footer from "./components/Footer.jsx";
 
-import UsageBallDaily from "./pages/assembly/UsageBallDaily";
+import UsageBallDaily from "./pages/assembly/UsageBallDaily.jsx";
 
 export default function App() {
     return (
