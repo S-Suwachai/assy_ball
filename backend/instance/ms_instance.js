@@ -13,7 +13,7 @@ const Sequelize = require("sequelize");
 
 const dbms = new Sequelize({
     dialect: 'mssql',
-    host: "192.168.100.10",
+    server: "192.168.100.10",
     username: "sa",
     password: "sa@admin",
     database: "machine_data",
